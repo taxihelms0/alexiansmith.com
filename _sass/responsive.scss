@@ -52,12 +52,12 @@
     /* Form resize for small screens */
     form {
       width:85%;
-      font-size:125%;
-      box-sizing:inherit;
+      // font-size:125%;
+      box-sizing:border-box;
     }
     
     form button, input{
-      width:100%!important;
+      width:85%!important;
       vertical-align:center;
     }
     form button {
