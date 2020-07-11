@@ -14,7 +14,6 @@ var template_id = "template_klFXnOEm";
 myform.find("button").text("Sending...");
 emailjs.send(service_id, template_id, params)
 .then(function() {
-      
       document.location.href="thanks.html";
 }, function(err) {
       alert("Send email failed!\r\n Response:\n " + JSON.stringify(err));
