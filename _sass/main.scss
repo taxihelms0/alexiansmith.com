@@ -279,29 +279,31 @@ textarea {
   // display:block;
   position:fixed;
   bottom:0;
+  right:0;
   margin-left:auto;
   margin-right:auto;
+  padding-left:8px;
+  padding-right:8px;
   
-  width:100%;
 }
 .footer ul {
   background-color:white;
   margin-top:0;
   margin-bottom:0;
   padding-inline-start:0;
-  padding-left:8px;
-  padding-right:8px;
+  
   text-align:right;
   text-justify: inter-word
 }
 .footer a {
   display:inline;
   // float: right;
+  text-align:right;
   color: $link-color;  
   text-decoration: none;
   font-size: 1.5rem;
   background-color:white;
-  margin-right:1rem;
+  // padding-right:1rem;
 }
 
 .footer li.info-hidden {
@@ -311,14 +313,15 @@ textarea {
 .footer li.info {
   display:inline!important;
   font-size:.8rem!important;
-  font-color:#555;  
+  color:#555;  
 }
 .footer li.info a {
   display:inline!important;
   font-size:.8rem!important;
-  font-color:#555;  
+  color:#555;  
 }
 .footer .infoToggle {
   cursor:context-menu;
+  padding-left:1rem;
 }
 /* end contact footer */
