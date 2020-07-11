@@ -56,6 +56,10 @@
       box-sizing:border-box;
     }
     
+    form textarea {
+      height:200px;
+    }
+
     form button, input{
       width:85%!important;
       vertical-align:center;
