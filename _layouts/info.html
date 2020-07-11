@@ -1,0 +1,14 @@
+---
+layout: default
+---
+<div>{{ content }}</div>
+<div class="site-info">
+    <ul>
+      <li>{% assign time = site.time | date: "%b %d, %Y %H:%M" %}
+      updated {{ time }}</li>
+    </ul>
+    <ul>
+      <li>built by <a href="https://alexiansmith.com">me</a> with <a href="https://jekyllrb.com">jekyll</a></li>
+      <li><a href="https://github.com/taxihelms0/alexiansmith.com" target="blank"><i class="fa fa-github"></i> view source</a></li>
+    </ul>
+</div>

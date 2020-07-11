@@ -13,7 +13,7 @@ $font-family-sans-serif:
   // Emoji fonts
   "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol" !default;
 
-$highlight-color: #DEFF00;
+$highlight-color: yellow;
 $link-color: black;
 
 /* end vars */
@@ -27,6 +27,7 @@ body {
   line-height:1.25;
   margin:0px;
   //padding: 1rem;
+  padding-bottom:2.95rem;
 }
 
 .content ul, p {
@@ -246,6 +247,74 @@ textarea {
   width: 0;
   z-index: -1;
 }
-
-
 /* end form stuff */
+
+/* site info footer */
+.site-info {
+  font-size:75%;
+  position:fixed;
+  bottom:0;
+  margin-right:auto;
+  margin-left:auto;
+  padding-bottom:2rem;
+}
+
+.site-info ul {
+  align-items:left;
+  padding-right:1rem;
+  padding-left:1rem;
+  margin-bottom:0;
+  margin-top:0;
+}
+
+.site-info li {
+  border-width:0;
+  display:inline;
+  padding:0;
+}
+/* end site info footer */
+
+/* contact footer */
+.footer {
+  // display:block;
+  position:fixed;
+  bottom:0;
+  margin-left:auto;
+  margin-right:auto;
+  background-color:white;
+  width:100%;
+}
+.footer ul {
+  margin-top:0;
+  margin-bottom:0;
+  padding-inline-start:0;
+  padding-left:8px;
+  padding-right:8px;
+  text-align:right;
+  text-justify: inter-word
+}
+.footer a {
+  display:inline;
+  // float: right;
+  color: $link-color;  
+  text-decoration: none;
+  font-size: 1.5rem;
+  background-color:white;
+  margin-right:1rem;
+}
+
+.footer li.info-hidden {
+  display:none;
+}
+
+.footer li.info {
+  display:inline!important;
+  font-size:.8rem!important;
+  font-color:#555;  
+}
+.footer li.info a {
+  display:inline!important;
+  font-size:.8rem!important;
+  font-color:#555;  
+}
+/* end contact footer */

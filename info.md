@@ -1,5 +1,6 @@
 ---
 title: info
+layout: info
 ---
 b. 1984 san diego, ca<br>
 bfa intermedia, pnca<br>

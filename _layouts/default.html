@@ -17,8 +17,36 @@
     <div class="content main" id="myContent" >
       {{ content }}
     </div>
+    
+    <div class="footer">
+      <ul>
+        <ul>
+          <li class="toggle info-hidden">built by <a href="https://alexiansmith.com">me</a> with <a href="https://jekyllrb.com">jekyll</a></li>
+          <li class="toggle info-hidden"><a href="https://github.com/taxihelms0/alexiansmith.com" target="blank"><i class="fa fa-github"></i> view source</a></li>
+        </ul>
+        {% if page.url != "/contact.html" %}
+        <a href="/contact.html">contact <i class="fa fa-envelope-o" aria-hidden="true"></i></a>
+        {% endif %}
+        <a onclick="showInfo()">site info</a>
+      </ul>
+    </div>
   </body>
 </html>
+
+<script>
+  function showInfo(){
+    var info = document.getElementsByClassName("toggle");
+    console.log(info);
+    for(let i=0; i < info.length; i++){
+      if (info[i].className == "toggle info-hidden") {
+        info[i].className = "toggle info";
+      } else {
+        info[i].className = "toggle info-hidden";
+      }
+    }
+  }
+
+</script>
 <script> // todo: add this stuff to a js file
   let content = document.getElementById("myContent");
   function getOffsetTop() {
@@ -46,3 +74,4 @@
     getOffsetTop();
   });
 </script>
+
