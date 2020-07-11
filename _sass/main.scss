@@ -285,20 +285,21 @@ textarea {
   padding-left:8px;
   padding-right:8px;
   
+  
 }
 .footer ul {
   background-color:white;
   margin-top:0;
   margin-bottom:0;
   padding-inline-start:0;
-  
+  border-radius:2px 0 0 0;
   text-align:right;
-  text-justify: inter-word
 }
 .footer a {
   display:inline;
   // float: right;
   text-align:right;
+  margin-left:1rem;
   color: $link-color;  
   text-decoration: none;
   font-size: 1.5rem;
@@ -314,14 +315,17 @@ textarea {
   display:inline!important;
   font-size:.8rem!important;
   color:#555;  
+  margin-left:4px;
 }
 .footer li.info a {
   display:inline!important;
   font-size:.8rem!important;
   color:#555;  
+  margin-left:0;
 }
 .footer .infoToggle {
   cursor:context-menu;
-  padding-left:1rem;
 }
+
+
 /* end contact footer */
