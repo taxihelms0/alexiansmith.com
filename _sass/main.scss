@@ -88,6 +88,16 @@ a:hover {
   display:inline;
   padding:0 1rem 0 1rem;
 }
+// socials
+.socials li{
+  margin-top:0;
+  padding-bottom:0;
+  padding-top:0;
+  margin-bottom:0;
+  display:block;
+  border-width:0;
+
+}
 
 /* end global stuff */
 
@@ -313,13 +323,13 @@ textarea {
 
 .footer li.info {
   display:inline!important;
-  font-size:.8rem!important;
+  font-size:.8rem;
   color:#555;  
   margin-left:4px;
 }
 .footer li.info a {
   display:inline!important;
-  font-size:.8rem!important;
+  font-size:.8rem;
   color:#555;  
   margin-left:0;
 }
