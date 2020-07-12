@@ -1,5 +1,7 @@
 # ALEXIANSMITH.com
 
-just a readme file for the personal website. Nothing really important needs to go here, but I will fill it out later
+It's just a personal website.
 
--alex
+This site is built using [Jekyll](https://jekyllrb.com). 
+
+It's hosted on [Vercel](https://vercel.com).
