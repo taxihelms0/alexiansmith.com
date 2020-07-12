@@ -38,10 +38,6 @@ body {
   margin-left:0;
 }
 
-.content form input, textarea{
-  font-size:125%;
-}
-
 // links
 a {
   color: $link-color;
@@ -167,7 +163,7 @@ a:hover {
   // left:8px;
   // top:8px;
   // right:8px;
-  margin-top: 1.5rem;
+  margin-top: 2rem;
 }
 .doubleMenu {
   margin-top: 3rem!important;
@@ -176,7 +172,7 @@ a:hover {
   margin-top: 4.5rem!important;
 }
 .mobileMenu {
-  margin-top: 4.5rem!important;
+  margin-top: 5rem!important;
 }
 /* end nav styling */
 
@@ -204,6 +200,9 @@ form {
   margin-top:2rem;
 }
 
+.content form input, textarea{
+  font-size:125%;
+}
 
 form input {
   //padding: 1rem;
