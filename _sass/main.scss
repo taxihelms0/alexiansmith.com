@@ -41,10 +41,11 @@ body {
 // links
 a {
   color: $link-color;
+  text-decoration: none;
 }
 a:hover {
   background-color: $highlight-color;
-  text-decoration: none;
+  
   color: $link-color
 }
 
@@ -142,10 +143,9 @@ a:hover {
 }
 
 /* Add an active class to highlight the current page */
-.current {
-  
-  background-color: $highlight-color;
-}
+// .current {
+//   background-color: $highlight-color;
+// }
 .topnav a.active {
   background-color: $highlight-color;
   color: white;
@@ -169,7 +169,7 @@ a:hover {
   margin-top: 3rem!important;
 }
 .tripleMenu {
-  margin-top: 4.5rem!important;
+  margin-top: 4rem!important;
 }
 .mobileMenu {
   margin-top: 5rem!important;
