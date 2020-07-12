@@ -15,14 +15,3 @@ plugins:
   - jekyll-seo-tag
 
 title: 'alex ian smith'
-
-social-links:
-  - id: "alexiansmith"
-    link: "https://instagram.com/alexiansmith"
-    type: "instagram"
-  - id: "a s s s"
-    link: "https://soundcloud.com/a_s_s_s"
-    type: "soundcloud"
-  - id: "concrete floor"
-    link: "https://soundcloud.com/concretefloor"
-    type: "soundcloud"
