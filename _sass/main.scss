@@ -127,7 +127,7 @@ a:hover {
   text-align: left;
   margin-left:1rem;
   text-decoration: none;
-  font-size: 3.5rem;
+  font-size: 1.5rem;
 }
 
 .topnav ul {
@@ -167,16 +167,16 @@ a:hover {
   // left:8px;
   // top:8px;
   // right:8px;
-  margin-top: 4rem;
+  margin-top: 1.5rem;
 }
 .doubleMenu {
-  margin-top: 8rem!important;
+  margin-top: 3rem!important;
 }
 .tripleMenu {
-  margin-top: 12rem!important;
+  margin-top: 4.5rem!important;
 }
 .mobileMenu {
-  margin-top: 16rem!important;
+  margin-top: 4.5rem!important;
 }
 /* end nav styling */
 
@@ -240,12 +240,12 @@ form button:hover {
 }
 
 textarea {
-    width: 100%;
-    height: 100px;
-    margin-bottom:2px;
-    border-width:1px;
-    border-color:black;
-    height:275px;
+  display:block;
+  width: 100%;
+  height:275px;
+  margin-bottom:2px;
+  border-width:1px;
+  border-color:black;  
 }
 
 .ohnohoney{
