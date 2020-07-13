@@ -7,14 +7,15 @@
   </span>
       
       
-  <!-- {% if post.category=='audio' and post.media_file %} -->
+  {% if post.category=='audio' and post.media_file %}
+<button onclick="playSomeAudio('{{ post.media_file }}')">hear it</button>
   <!-- <div>
       <audio controls style="width:50%">
     <source src="{{ post.media_file }}">
   Your browser does not support the audio element.
   </audio>
   </div> -->
-  <!-- {% endif %} -->
+  {% endif %}
 
 </li>
 {% endfor %}
