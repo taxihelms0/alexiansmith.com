@@ -1,0 +1,12 @@
+audio {
+    display: none;
+    position:fixed;
+    bottom:0;
+    left:0;
+    width:50%;
+    text-align:left;
+}
+
+audio.show {
+    display: inline;
+}

@@ -95,5 +95,12 @@
     .socials li {
       display:inline-block;
     }
+
+    // audio player 
+    audio {
+      position:static!important;
+      width:100%!important;
+      text-align:center!important;
+    }
     
   }
