@@ -3,19 +3,22 @@
   <span class="date">{{ post.date | date_to_string }}</span> 
   <a href="{{ post.url }}">{{ post.title }}</a>
   <span class="excerpt">
+  {% if post.category=='audio' and post.media_file %}
+    <a id="{{ post.title }} media" onclick="playSomeAudio('{{ post.title }}')">{{ post.media_file }}</a>
+  {% endif %}
   {{ post.excerpt }} 
   </span>
       
       
-  {% if post.category=='audio' and post.media_file %}
-<button onclick="playSomeAudio('{{ post.media_file }}')">hear it</button>
+  
+  <!-- <button onclick="playSomeAudio('{{ post.title }}')">hear it</button> -->
   <!-- <div>
       <audio controls style="width:50%">
     <source src="{{ post.media_file }}">
   Your browser does not support the audio element.
   </audio>
   </div> -->
-  {% endif %}
+  
 
 </li>
 {% endfor %}
