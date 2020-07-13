@@ -14,7 +14,7 @@ function init() {
     }
     
 function reportWindowSize() {
-      console.log(brandName);
+      // console.log(brandName);
       if (matchMedia('only screen and (max-width: 600px)').matches) {
         document.getElementById("brand").innerHTML = inits.join("");
       } else {
