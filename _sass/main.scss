@@ -14,7 +14,9 @@ $font-family-sans-serif:
   "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol" !default;
 
 $highlight-color: yellow;
-$link-color: black;
+$link-color: #f0f0f0;
+$page-background: black;
+$text-color: white;
 
 /* end vars */
 
@@ -28,6 +30,8 @@ body {
   margin:0px;
   //padding: 1rem;
   padding-bottom:2.95rem;
+  background-color: $page-background;
+  color:$text-color;
 }
 
 .content ul, p {
@@ -40,13 +44,12 @@ body {
 
 // links
 a {
-  color: $link-color;
+  color: $text-color;
   text-decoration: none;
 }
 a:hover {
   background-color: $highlight-color;
-  
-  color: $link-color
+  color: $text-color;
 }
 
 .content li {
@@ -111,7 +114,7 @@ ul.socials {
   top:0;
   right:0;
   left:0;
-  background-color:white;
+  background-color:$page-background;
   margin-left:auto;
   margin-right:auto;
   line-height:1.15;
@@ -125,7 +128,7 @@ ul.socials {
 .topnav a {
   float: left;
   display: block;
-  color: $link-color;
+  color: $text-color;
   text-align: left;
   margin-left:1rem;
   text-decoration: none;
@@ -138,7 +141,7 @@ ul.socials {
 }
 
 #brand {
-  background-color:white;
+  background-color:$page-background;
 }
 
 /* Change the color of links on hover */
@@ -312,7 +315,7 @@ textarea {
   
 }
 .footer ul {
-  background-color:white;
+  background-color: $page-background;
   margin-top:0;
   margin-bottom:0;
   padding-inline-start:0;
@@ -327,7 +330,7 @@ textarea {
   color: $link-color;  
   text-decoration: none;
   font-size: 1.5rem;
-  background-color:white;
+  background-color:$page-background;
   // padding-right:1rem;
 }
 
