@@ -30,3 +30,5 @@ fields:
   config: {}
   label: media file(s)
   description: Upload file(s) to include in your post
+pages:
+- _posts/media-file-test.md
