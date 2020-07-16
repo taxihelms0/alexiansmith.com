@@ -21,6 +21,7 @@ fields:
 - type: text
   name: media_file_old
   label: media_file
+  hidden: true
 - name: tags
   type: tag_list
   default: []
@@ -30,12 +31,6 @@ fields:
   config: {}
   label: media file(s)
   description: Upload file(s) to include in your post
-- name: draft
-  type: boolean
-  label: draft
-  description: hidden field for drafts
-  hidden: true
-  default: false
 pages:
 - _posts/2020-07-16-media-file-test.md
 - _posts/2020-07-16-new-draft-test.md
