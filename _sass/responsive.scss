@@ -14,19 +14,19 @@
     .topnav #brand {
       margin-right:0;
       margin-left:1rem!important;
-      background-color:white!important;
+      background-color:$page-background!important;
       // font-size: 1.5rem;
       padding-top:0;
     }
     .topnav a.icon {
-      background-color:white;
+      background-color:$page-background;
       position:fixed;
       right:0;
       margin-right:1rem;
       display: block;
     }
     .topnav {
-      background-color:white;
+      background-color:$page-background;
     }
   }
   

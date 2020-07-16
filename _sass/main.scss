@@ -196,6 +196,11 @@ ul.socials {
   justify-content: start;
 }
 
+// .grid-container:hover {
+//   background-color:$page-background;
+//   color: $link-color;
+// }
+
 .grid-item p {
   padding-top:0;
 }
@@ -206,6 +211,11 @@ ul.socials {
   grid-row:1;
   cursor:pointer;
   text-decoration:underline;
+}
+
+.grid-container .post-date:hover, .post-title:hover {
+  background-color:$highlight-color;
+  color:$link-color;
 }
 
 .grid-container .post-excerpt {
