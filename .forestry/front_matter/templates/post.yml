@@ -1,16 +1,32 @@
 ---
 label: post
 hide_body: false
+display_field: title
 fields:
 - type: text
   name: title
   label: title
+  config:
+    required: true
+    min: 1
 - type: datetime
   name: date
   label: date
+  config:
+    required: true
+  default: now
 - type: text
   name: category
   label: category
 - type: text
-  name: media_file
+  name: media_file_old
   label: media_file
+- name: tags
+  type: tag_list
+  default: []
+  label: tags
+- name: media_file
+  type: image_gallery
+  config: {}
+  label: media file(s)
+  description: Upload file(s) to include in your post
