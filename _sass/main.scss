@@ -14,9 +14,9 @@ $font-family-sans-serif:
   "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol" !default;
 
 $highlight-color: yellow;
-$link-color: #f0f0f0;
+$link-color: black;
 $page-background: black;
-$text-color: white;
+$text-color: #e0e0e0;
 
 /* end vars */
 
@@ -32,6 +32,8 @@ body {
   padding-bottom:2.95rem;
   background-color: $page-background;
   color:$text-color;
+  letter-spacing: 0.15em;
+  font-weight:lighter;
 }
 
 .content ul, p {
@@ -45,11 +47,11 @@ body {
 // links
 a {
   color: $text-color;
-  text-decoration: none;
+  text-decoration: underline;
 }
 a:hover {
   background-color: $highlight-color;
-  color: $text-color;
+  color: $link-color;
 }
 
 .content li {
@@ -222,10 +224,11 @@ form {
 
 form input {
   //padding: 1rem;
-  border-width:1px;
-  border-color:black;
+  border-width:1px 1px 1px 1px;
+  border-color:$text-color;
   padding-top:0.5rem;
   padding-bottom:0.5rem;
+  background-color:#101010;
   
   // margin-left:auto;
   // margin-right:auto;
@@ -244,9 +247,10 @@ form button {
   width: 80px;
   font-size:100%;
   // border-radius: 5px;
-  background-color:#f0f0f0;
+  background-color:#101010;
   border-width:1px;
-  border-color:black;
+  border-color:$text-color;
+
 }
 
 form button:hover {
@@ -260,7 +264,8 @@ textarea {
   height:275px;
   margin-bottom:2px;
   border-width:1px;
-  border-color:black;  
+  border-color:$text-color;
+  background-color:#101010;
 }
 
 .ohnohoney{
@@ -313,6 +318,7 @@ textarea {
   padding-right:8px;
   
   
+  
 }
 .footer ul {
   background-color: $page-background;
@@ -321,13 +327,14 @@ textarea {
   padding-inline-start:0;
   border-radius:2px 0 0 0;
   text-align:right;
+  
 }
 .footer a {
   display:inline;
   // float: right;
   text-align:right;
   margin-left:1rem;
-  color: $link-color;  
+  color: $text-color;  
   text-decoration: none;
   font-size: 1.5rem;
   background-color:$page-background;
@@ -341,13 +348,13 @@ textarea {
 .footer li.info {
   display:inline!important;
   font-size:.8rem;
-  color:#555;  
+  color:$text-color;  
   margin-left:4px;
 }
 .footer li.info a {
   display:inline!important;
   font-size:.8rem;
-  color:#555;  
+  color:$text-color;  
   margin-left:0;
 }
 .footer .infoToggle {
