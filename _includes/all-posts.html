@@ -1,14 +1,14 @@
 {% for post in site.posts %}
-<li class="blogPost">
-  <ul class="postDisplay">
+<!-- <li class="blogPost"> -->
+  <div class="grid-container">
 
-    <li class="post-title"><a href="{{ post.url }}">{{ post.title }}</a></li>
+    <div class="grid-item post-title"><a href="{{ post.url }}">{{ post.title }}</a></div>
     <!-- {% if post.category=='audio' and post.media_file %}
       <a id="{{ post.title }} media" onclick="playSomeAudio('{{ post.title }}')">{{ post.media_file }}</a>
     {% endif %} -->
-    <li class="post-excerpt">{{ post.excerpt }}</li>
-    <li class="post-date">{{ post.date | date_to_string }}</li>
-  </ul>
+    <div class="grid-item post-excerpt">{{ post.excerpt }}</div>
+    <div class="grid-item post-date">{{ post.date | date_to_string }}</div>
+  </div>
       
   
   <!-- <button onclick="playSomeAudio('{{ post.title }}')">hear it</button> -->
@@ -18,5 +18,5 @@
   Your browser does not support the audio element.
   </audio>
   </div> -->
-</li>
+<!-- </li> -->
 {% endfor %}
