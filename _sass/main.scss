@@ -204,6 +204,8 @@ ul.socials {
   text-align:right;
   grid-column:3;
   grid-row:1;
+  cursor:pointer;
+  text-decoration:underline;
 }
 
 .grid-container .post-excerpt {
@@ -212,13 +214,22 @@ ul.socials {
 }
 
 .grid-container .post-title {
+  cursor:pointer;
+  text-decoration:underline;
   grid-column:1;
   grid-row:1;
 }
 
 .grid-container .post-content {
+  display:none;
+  padding-top:0.5rem;
+  padding-bottom:0.5rem;
   grid-column: 1 / span 3;
   grid-row:2;
+}
+
+.grid-container .show {
+  display:block;
 }
 
 /* end blog listing style */
