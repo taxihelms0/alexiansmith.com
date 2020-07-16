@@ -185,11 +185,57 @@ ul.socials {
 li.blogPost {
   display:block;
   text-align: left;
+  // width:100%;
+  margin-left:0!important;
+  margin-right:0;
   // text-justify: inter-word;
 
   // margin-right:auto;
   // margin-left:auto;
 }
+ul.postDisplay li.post-excerpt, li.post-title, li.post-date {
+  margin-right:1rem;
+  width:100%;
+}
+
+li.post-excerpt p {
+  padding-top:0;
+}
+
+ul.postDisplay {
+  padding-top:0;
+  margin-top:0;
+  // margin-left:auto;
+  // margin-right:auto;
+  
+  // display: flex;
+  // justify-content:space-between; 
+}
+ul.postDisplay li.post-title {
+  text-align:left;
+  width:12%;
+}
+
+ul.postDisplay li.post-excerpt {
+  text-align:left;
+  width:25%;
+}
+
+ul.postDisplay li.post-date {
+  text-align:right;
+  width:25%;
+}
+
+li.blogPost ul.postDisplay li {
+  display:inline-block;
+  border:none;
+  padding-bottom:0;
+  padding-top:0;
+  margin-left:0;
+  margin-right:0;
+}
+
+
 
 /* end blog listing style */
 
